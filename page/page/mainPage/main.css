@@ -1,0 +1,38 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 500px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #47936d;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 400px;
+    position: absolute;
+    cursor: pointer;
+}
+
+body {
+background-image: url("../mainPage/f1aa35aa-ffb6-4981-aee1-af4b3040a3b6.jpeg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+}
+@media (max-width: 768px) {
+
+    .button-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
